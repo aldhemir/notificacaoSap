@@ -1,0 +1,19 @@
+Crie um webhook no Microsoft Teams:
+
+1. No Microsoft Teams, clique com o botão direito do mouse no canal em que você deseja receber as notificações e selecione a opção "Conectar um webhook".
+2. Dê um nome ao webhook e, se desejar, insira uma imagem.
+3. Copie a URL do webhook e salve-a em um local seguro, pois você precisará dela mais tarde.
+
+Crie um script na tabela de tarefas do ServiceNow:
+
+1. Acesse o ServiceNow e vá para a lista de tarefas.
+2. Clique no ícone de engrenagem no canto superior direito e selecione a opção "Personalizar lista".
+3. Na seção "Scripts", clique no link "Criar um novo script".
+4. Dê um nome ao script, selecione a tabela "Task" e marque a opção "After insert".
+5. Cole o código JavaScript fornecido anteriormente na seção "Script".
+6. Substitua a URL do webhook pelo valor copiado no passo 1.
+
+Salve o script e teste a integração:
+
+1. Adicione uma nova tarefa à lista de tarefas no ServiceNow.
+2. Verifique se você recebeu uma notificação no canal do Microsoft Teams configurado no webhook.
